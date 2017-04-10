@@ -1,0 +1,72 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# ---------------------------------
+# Custom for GNU Projects
+# ---------------------------------
+*.bash text eol=lf
+*.c text eol=lf
+.cproject text eol=lf
+*.cpoject text eol=lf
+cobra.Doxyfile text eol=lf
+*.export text eol=lf
+footer.html text eol=lf
+gdbinit text eol=lf
+gdbeclipse text eol=lf
+gdbinit-ash text eol=lf
+gdbinit-auto text eol=lf
+gdbinit-rvi text eol=lf
+gdbplugin text eol=lf
+header.html text eol=lf
+inittests.xsl text eol=lf
+*.h text eol=lf
+*.in text eol=lf
+*.inc text eol=lf
+*.ini text eol=lf
+*.key text eol=lf
+Makefile eol=lf
+*.mk text eol=lf
+move-if-change text eol=lf
+*.pl text eol=lf
+*.prefs text eol=lf
+private.Doxyfile text eol=lf
+.project text eol=lf
+*.project text eol=lf
+public.Doxyfile text eol=lf
+README text eol=lf
+*.S text eol=lf
+svn-describe text eol=lf
+*.xsl text eol=lf
+*.sh text eol=lf
+
+*.txt text
+
+*.a binary
+*.bin binary
+*.bmp binary
+*.dll binary
+*.exe binary
+*.jpg binary
+*.jpeg binary
+*.o binary
+*.odt binary
+*.ods binary
+*.png binary
+*.so binary
+
+# ---------------------------------
+
+# Custom for Visual Studio
+*.cs     diff=csharp
+
+# Standard to msysgit
+*.doc	 diff=astextplain
+*.DOC	 diff=astextplain
+*.docx diff=astextplain
+*.DOCX diff=astextplain
+*.dot  diff=astextplain
+*.DOT  diff=astextplain
+*.pdf  diff=astextplain
+*.PDF	 diff=astextplain
+*.rtf	 diff=astextplain
+*.RTF	 diff=astextplain
