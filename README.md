@@ -4,9 +4,11 @@
 This project implements a protocol converter between a HAYES style subset of ASCII commands to/from 
 MAP27, a binary Radio protocol for Trunked Radios on MPT1327 networks.
 
+![MPT1327 Radio](/doc/tait-radio.png?raw=true)
+
 The core implementation follows the MAP27 specification version 1.5 year 1998.
 All the names and conventions used in the source code follow the specs convention.
-(not so good programming convention practices but good enogh in order to follow the specs name convention).
+(not so good programming convention practices but good enough in order to follow the specs name convention).
 
 The idea of the code is to be embeddable and portable,  keeping in mind low-end 8 bit microcontrollers
 with low memory resources.
@@ -16,6 +18,7 @@ with low memory resources.
 * current target uC:  Dallas DS87C520 - Two Full-Duplex Hardware Serial Ports
 * memory used:  1KB SRAM 14KB EPROM
 
+![JPC1](/doc/jpc1.png?raw=true)
 
 ## Directory & files organization
 
